@@ -1,0 +1,12 @@
+.arr{
+    background-image: url(imgs/arr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 47px;
+    background-size: 100%;
+    position: fixed;
+    top: 640px;
+    right: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+.footer{
+    margin: 0;
+    background-color: #225E00;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 0px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #225E00;
+    margin: 0;
+}
+.footer_logo {
+    float: right;
+    margin: 0 30px 10px 25px;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #fff;
+    margin: 10px 0 0 0;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.socials li:nth-child(4){
+    margin: 0 40px 0px 0px;
+}
+.socials a{ 
+    text-decoration: none; color: #fff;
+}
+socials a i{ 
+    font-size: 1.1rem; transition: color .4s ease; 
+}
+.socials a:hover i{ 
+    color: rgb(255, 255, 255); 
+} 
+.footer-content p.your-website {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+}
+.socials img {
+    border-radius: 360px;
+    padding: 5px;
+    background-color: #e8e4d4;
+    margin-left: 7px;
+}
+
+.socials img:hover {
+    background-color:#3d5f00;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.socials p {
+    color: #e8e4d4;
+    font-family: 'Cairo';
+    float: right;
+    clear: both;
+    margin-right: 7vh;
+}
+
+.socials {
+    height: 100px;
+}
+.footer_image1 {
+    float: left;
+    position: absolute;
+    padding-left: 700px;
+    padding-bottom: 70px;
+}
+.footer_image2 {
+    float: left;
+    position: absolute;
+    padding-left: 730px;
+    padding-bottom: 70px;
+}
+.footer_image3 {
+    float: left;
+    position: absolute;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
+.footer_image4 {
+    float: left;
+    padding-right: 470px;
+    padding-bottom: 10px;
+}
+
+.jk{
+    display: inline-block;
+    position: relative;
+    bottom: 170px;
+    left: 80px;
+}
+.mk{
+    display: inline-block;
+    position: relative;
+    right: -250px;
+    bottom: 50px;
+}
+.clear{
+    clear: both;
+}

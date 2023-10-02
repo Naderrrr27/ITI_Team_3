@@ -1,0 +1,26 @@
+.tittle{
+    margin: 0px;
+    padding: 0px;
+    color: #3d5f00;
+    display: flex;
+   
+  }
+  
+  #un {
+    opacity: 0.149;
+    font-size: 45px;
+    color: #3d5f00;
+    font-weight: 700;
+  }
+  
+  .titleTwo{
+    color: #3d5f00;
+    font-size: 25px;
+    opacity: 1;
+    font-weight: 700;
+    position: relative;
+    left:40px;
+    top:42px; 
+    
+  }
+  

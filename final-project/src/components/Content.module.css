@@ -1,0 +1,143 @@
+/* Start Content styling  */
+
+.contentt {
+    height: auto;
+    background-image: url(imgs/7248673_3589374.png);
+    background-size: 100% 100%;
+    color: #000000;
+}
+
+.food {
+    padding: 8% 8% 10% 8% ;
+}
+
+.american {
+    margin: 0;
+    font-size: 47px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #225E00;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.taste {
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 0px;
+    color: #225E00;
+    font-weight: 100;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.bord{
+    margin: 20px 0;
+    border: 2px solid #225E00;
+}
+
+.lorema{
+    color: #225E00;
+    font-size: 18px;
+    font-weight: 540;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bott{
+    margin-top: 50px;
+    display: flex;
+}
+.ord{
+    background-color: #225E00;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.back{
+    background-image: url(imgs/kfnev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #225E00;
+    background-size: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* End Content styling  */
+
+
+/* Start Content responsive  */
+
+@media(max-width:836px) {
+    .food{
+        padding-left: 5px;
+    }
+    .ord{
+        padding: 18px 60px;
+        padding-left: 10%;
+    }
+    .back{
+        padding: 2px 20px;
+    }
+}
+
+/* End Content responsive  */
+
+
+.col_1 {
+    width: 8.333333333333333%;
+}
+
+.col_2 {
+    width: 16.66666666666667%;
+}
+
+.col_3 {
+    width: 24.99999999999967%;
+}
+
+.col_4 {
+    width: 33.33333333329967%;
+}
+
+.col_5 {
+    width: 41.66666666662967%;
+}
+
+.col_6 {
+    width: 49.99999999995967%;
+}
+
+.col_7 {
+    width: 58.33333333328967%;
+}
+
+.col_8 {
+    width: 66.66666666661967%;
+}
+
+.col_9 {
+    width: 74.99999999995297%;
+}
+
+.col_10 {
+    width: 83.33333333328297%;
+}
+
+.col_11 {
+    width: 91.66666666661297%;
+}
+
+.col_12 {
+    width: 100%;
+}
+
+
+.clear {
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+}

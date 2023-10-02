@@ -1,0 +1,63 @@
+@media (max-width:600px) 
+{
+   
+    .imk{
+
+     margin-top: 30px;
+     height: 73%;
+    
+    }
+
+}
+@media (max-width:499px) 
+{
+    .servoParent {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .imk{
+        margin-top: 10px;
+        width: 90%;
+        margin-right:0;
+    }
+   
+}
+
+
+.servoParent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px ;
+   
+}
+.servoChild1{
+    margin: 0  0 0 20px ;
+    flex:  5 ;
+}
+
+
+.ii{
+    flex: 12;
+}
+.i2{
+    flex: 1;
+}
+.servoChild2{
+    flex:1;
+     margin-left:20px ;
+    padding-left : 30px;
+ }
+
+.btn{
+    margin-left: 0;
+    margin-top :20px ;
+    padding : 7px 20px  ;
+    background-color : #3d5f00;
+    color :white ;
+    font-weight :600;
+    font-family: 'Noto Sans Duployan', sans-serif;
+    border-radius : 15px 0 15px 0 ;
+    border-style : none
+}
+
+
